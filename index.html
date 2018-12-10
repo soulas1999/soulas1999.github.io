@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	
+</title>	
+<meta charset = 'utf-8'>
+<style>
+/*초기화 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	font-size: ;
+	color: #444444;
+}
+
+li {list-style-type: none;}
+
+.clear {clear:both;}
+
+.white {color: white;}
+
+header {
+	width: 1340px;
+	height: 100px;
+	margin: 0 auto;
+	/*border: solid 1px red;*/
+}
+/*로고 이미지*/
+#logo {
+	float: left;
+	margin: 10px 0 0 10px;
+	/*border: solid 1px red*/
+}
+/*네비게이션*/
+#menus {
+	float: right;
+	margin-top: 10px;
+	/*border: solid 1px red*/
+}
+/*로그인 회원가입*/
+#top_menu {
+	text-align: right;
+	margin-top: 20px;
+	/*border: solid 1px green*/
+}
+/*메뉴*/
+#main_menu {
+	margin-top: 20px;
+	font-size: 20px;
+	color: black;
+	/*border: solid 1px purple;*/
+}
+/*목록 수평정렬*/
+#main_menu li{
+	display: inline;
+	margin-left: 80px;
+}
+
+#main_img {
+	width: 900px;
+    height: 599px;
+    background-image: url('img3/main_img.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+    margin-left: 630px;
+}
+
+#contents {
+	color: white;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#sub_menu {
+	width: 234px;
+	float: left;
+	margin-top: 25px;
+	/*border: solid 1px red;*/
+}
+
+#sub_menu h3 {
+     font-size: 18px;
+     color: #5df0c0;
+     padding: 12px;
+     background-color: #516e7f;
+}
+
+#sub_menu li {
+	padding: 10px;
+	border-bottom: dotted 1px #cccccc;
+}
+
+#main_contents {
+   width: 880px;
+   float: right;
+   margin-top: 25px;
+   /*border: solid 1px red;*/
+}
+
+#main_contents h3 {
+	color: white;
+   font-size: 22px;
+   padding-bottom: 8px;
+   border-bottom: solid 1px #cccccc;
+}
+
+#main_contents p {
+	color: white;
+    margin-top: 30px;
+    line-height: 180%;
+}
+
+#main_contents #figure {
+   margin-top: 30px;
+   text-align: center;
+}
+
+footer {
+   width: 100%;
+   height: 150px;
+   margin-top: 30px;
+   background-color: #2c2a29;
+}
+
+#footer_box {
+	width: 1140px;
+	height: 150px;
+	margin: 0 auto;
+	/*border: solid 1px green;*/
+}
+
+#footer_logo {
+	float: left;
+	margin: 50px 0 0 30px;
+	/*border: solid 1px red;*/
+}
+
+#address {
+	float: right;
+	margin: 50px 0 0 30px;
+	color: white;
+	/*border: solid 1px red;*/
+}
+
+</style>
+</head>
+<body>
+
+<header>
+	<div id="logo">
+		<img src = 'img3/logo.png'>
+	</div>
+<nav id="menus">
+	<div id="top_menu">
+		<span class = "white">로그인 | 회원가입</span>
+	</div>
+	<ul id="main_menu">
+		<li class = "white"><a href='홈페이지 만들기 - 12월 개봉예정 영화.html' target='_blank'>12월 개봉영화</a></li>
+		<li class = "white">역대 흥행순위</li>
+		<li class = "white">감독</li>
+		<li class = "white">평점사이트</li>
+		<li class = "white"><a href='홈페이지 만들기 - 퀴즈.html' target='_blank'>퀴즈</a></li>
+	</ul>
+</nav>
+</header>
+<section id ='main_img'>
+</section>
+
+<section id ='contents'>
+	
+	<nav id='sub_menu'>
+		<h3>메뉴</h3>
+		<ul>
+		 <li><a href='홈페이지 만들기 - 12월 개봉예정 영화.html' target='_blank'>12월 개봉영화</a></li>
+		 <li>역대 흥행순위</li>
+		 <li>감독</li>
+		 <li>평점사이트</li>
+		 <li><a href='홈페이지 만들기 - 퀴즈.html' target='_blank'>퀴즈</a></li>
+		</ul>	
+	</nav>
+
+    <div id='main_contents'>
+        <h3>씨네마 유토피아에 오신것을 환영합니다!</h3>
+        <p>씨네마 유토피아는 영화를 좋아하는 사람들에게 잡다한 영화관련 정보를 전달함으로써 이용자분들에게 기쁨을 주는데에 목적을 두는 사이트 입니다. </p>
+        <div id="figure">
+        	<img src="img3/slate4.png">
+    </div>
+    <p>원하시는 정보를 얻어가시면 더할 나위 없는 보람을 느낄 것입니다.</p>
+    
+    </div>	
+</section>
+<div class='clear'></div> <!-- 플로트 속성 해제-->
+
+<footer>
+	<div id="footer_box">
+		<div id="footer_logo">
+			<img src="img3/footer_logo.png">
+		</div>
+		<ul id="address">
+			<li>서울시 구로구 개봉동 123 우:개봉로-123</li>
+			<li>TEL: 010-4657-4885 Email: GaJJa@gamil.com</li>
+			<li>COPYRIGHT (C) SJW</li>
+		</ul>
+	</div>
+</footer>
+</body>	
+</html>
