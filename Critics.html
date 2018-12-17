@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	
+</title>	
+<meta charset = 'utf-8'>
+<style>
+/*초기화 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	font-size: ;
+	color: #444444;
+}
+
+li {list-style-type: none;}
+
+.clear {clear:both;}
+
+.white {color: white;}
+
+header {
+	width: 1340px;
+	height: 100px;
+	margin: 0 auto;
+	/*border: solid 1px red;*/
+}
+/*로고 이미지*/
+#logo {
+	float: left;
+	margin: 10px 0 0 10px;
+	/*border: solid 1px red*/
+}
+/*네비게이션*/
+#menus {
+	float: right;
+	margin-top: 10px;
+	/*border: solid 1px red*/
+}
+/*로그인 회원가입*/
+#top_menu {
+	text-align: right;
+	margin-top: 20px;
+	/*border: solid 1px green*/
+}
+/*메뉴*/
+#main_menu {
+	margin-top: 20px;
+	font-size: 20px;
+	color: black;
+	/*border: solid 1px purple;*/
+}
+/*목록 수평정렬*/
+#main_menu li{
+	display: inline;
+	margin-left: 80px;
+}
+
+#main_img {
+	width: 900px;
+    height: 599px;
+    background-image: url('img3/main_img.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+    margin-left: 630px;
+}
+
+#contents {
+	color: white;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#sub_menu {
+	width: 234px;
+	float: left;
+	margin-top: 25px;
+	/*border: solid 1px red;*/
+}
+
+#sub_menu h3 {
+     font-size: 18px;
+     color: #5df0c0;
+     padding: 12px;
+     background-color: #516e7f;
+}
+
+#sub_menu li {
+	padding: 10px;
+	border-bottom: dotted 1px #cccccc;
+}
+
+#main_contents {
+   width: 880px;
+   float: right;
+   margin-top: 25px;
+   /*border: solid 1px red;*/
+}
+
+#main_contents h3 {
+	color: white;
+   font-size: 22px;
+   padding-bottom: 8px;
+   border-bottom: solid 1px #cccccc;
+}
+
+#main_contents p {
+	color: white;
+    margin-top: 30px;
+    line-height: 180%;
+}
+
+#main_contents #figure {
+   margin-top: 30px;
+   text-align: center;
+}
+
+footer {
+   width: 100%;
+   height: 150px;
+   margin-top: 30px;
+   background-color: #2c2a29;
+}
+
+#footer_box {
+	width: 1140px;
+	height: 150px;
+	margin: 0 auto;
+	/*border: solid 1px green;*/
+}
+
+#footer_logo {
+	float: left;
+	margin: 50px 0 0 30px;
+	/*border: solid 1px red;*/
+}
+
+#address {
+	float: right;
+	margin: 50px 0 0 30px;
+	color: white;
+	/*border: solid 1px red;*/
+}
+
+</style>
+</head>
+<body>
+
+<header>
+	<div id="logo">
+		<a href='index.html'><img src = 'img3/logo.png'></a>
+	</div>
+<nav id="menus">
+	<div id="top_menu">
+		<span class = "white">로그인 | 회원가입</span>
+	</div>
+	<ul id="main_menu">
+		<li class = "white"><a href='December table.html' target='_blank'>12월 개봉영화</a></li>
+		<li class = "white"><a href='Critics.html'>평점사이트</a></li>
+		<li class = "white"><a href='Quiz.html' target='_blank'>퀴즈</a></li>
+	</ul>
+</nav>
+</header>
+<section id ='main_img'>
+</section>
+
+<section id ='contents'>
+	
+	<nav id='sub_menu'>
+		<h3>메뉴</h3>
+		<ul>
+		 <li><a href='December table.html' target='_blank'>12월 개봉영화</a></li>
+		 <li><a href='Critics.html'>평점사이트</a></li>
+		 <li><a href='Quiz.html' target='_blank'>퀴즈</a></li>
+		</ul>	
+	</nav>
+
+    <div id='main_contents'>
+        <h3>평점사이트</h3>
+        <p>전 세계에는 각 국가별로, 혹은 회사별로 수없이 다양하게 영화 평점을 보여주는 사이트가 있습니다. 씨네마 유토피아에서는 그 중 가장 규모가 크고 유명한 사이트 4개를 소개하고자 합니다. </p>
+        <p>1. 메타크리틱 </p>
+        <div id="figure">
+        	<img src="img3/Metacritic.png">
+        <p> 2001년에 개설된 평론 사이트. 이곳의 평점은 평론가들에 의해 결정되며, 따라서 일반 관객들과 평점 차이가 큰 경우도 종종 발생합니다. 영화 외에도 게임, 음악 등을 리뷰하는 사이트이기도 하기에, 영화외에 음악이나 게임도 좋아하는 사람이라면 참고하기 아주 유용한 사이트 입니다.</p>   	
+    </div>
+    <p>2.IMDB</p>
+    <div id="figure">
+        	<img src="img3/imdb.jpg">
+    <p> 1990년에 개설된 세계 최대의 영화정보 관련 사이트. 메타크리틱이나 후술할 로튼토마토와는 다르게 유저들의 평점이 올라오며, 세계 최대라는 명성답게 엄청난 양의 트래픽 유저를 보유하고 있으며, 이곳에 이름이 없는 영화는 존재하지 않는 영화라는 말이 있을 정도로 방대한 정보량을 자랑합니다. </p>   	
+    </div>	
+    <p>3. 로튼토마토</p>
+    <div id="figure">
+        	<img src="img3/rottentomatoes.jpg">
+       <p> 미국의 영화 리뷰모음 사이트. 메타크리틱과는 라이벌같은 관계입니다. 일반 유저의 평가와 전문가의 평가를 같이 모아놓았으면 '로튼 토마토(썩은 토마토)'라는 이름답게 영화의 평가가 좋으면 신선한 토마토라는 마크가 뜨고, 평가가 낮으면 썩은 토마토 마크가 붙는것이 로튼 토마토의 특징입니다.</p>      	
+    </div>	
+    <p>4. 레터박스</p>
+    <div id="figure">
+        	<img src="img3/letterbox.png">
+        	  <p> 메타크리틱이나 로튼 토마토가 지나치게 미국 위주의 사이트라는 반발심에 뉴질랜드에서 만들어진 사이트입니다. 로튼 토마토나 메타크리틱이 영화 외에 드라마, 게임, 음악 등도 다루는 반면, 레터박스는 오롯이 영화에 관한 정보만을 다뤄 정보를 찾을때 혼선이 없다는 장점이 있습니다. </p>   
+    </div>	
+</section>
+<div class='clear'></div> <!-- 플로트 속성 해제-->
+
+<footer>
+	<div id="footer_box">
+		<div id="footer_logo">
+			<img src="img3/footer_logo.png">
+		</div>
+		<ul id="address">
+			<li>서울시 구로구 개봉동 123 우:개봉로-123</li>
+			<li>TEL: 010-4657-4885 Email: GaJJa@gamil.com</li>
+			<li>COPYRIGHT (C) SJW</li>
+		</ul>
+	</div>
+</footer>
+</body>	
+</html>
